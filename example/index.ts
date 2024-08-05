@@ -46,7 +46,7 @@ const MemoryStore = memoryStore(session);
 const {
   ENABLE_CONFORMANCE,
   ENABLE_HTTPS,
-  RP_ID = 'localhost',
+  RP_ID = 'simplewebauthn.a0.dance',
 } = process.env;
 
 app.use(express.static('./public/'));
